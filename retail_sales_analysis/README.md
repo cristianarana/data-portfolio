@@ -20,7 +20,6 @@ El enfoque sigue un flujo completo de **ETL → Análisis exploratorio → Visua
 
 * **Python** (Pandas, NumPy, Matplotlib, Seaborn)
 * **Jupyter Notebook**
-* **Power BI** (opcional para visualización interactiva)
 * **Git / GitHub** para control de versiones
 
 ---
@@ -36,16 +35,14 @@ El enfoque sigue un flujo completo de **ETL → Análisis exploratorio → Visua
 
 ### 2️⃣ EDA – Análisis exploratorio
 
-* Distribución de ventas por género, tipo de cliente y sucursal
 * Identificación de los productos más vendidos
+* Identificación de tiendas con productos más vendidos
 * Análisis temporal de ventas (mensual / semanal)
-* Estadísticas descriptivas por categoría
 
 ### 3️⃣ Visualización
 
 * Gráficos de barras, líneas y boxplots para tendencias y comparaciones
 * Heatmap de correlación entre variables
-* Dashboard en Power BI (si aplica)
 
 ### 4️⃣ Conclusiones e insights
 
@@ -60,12 +57,10 @@ El enfoque sigue un flujo completo de **ETL → Análisis exploratorio → Visua
 ```
 retail-sales-analysis/
 ├── data/
-│   ├── raw/               # Datos originales
-│   └── processed/         # Datos limpios y transformados
 ├── notebooks/
 │   ├── 01_data_cleaning.ipynb
 │   ├── 02_exploratory_analysis.ipynb
-│   └── 03_visualizations.ipynb
+│   └── 03_summary_reports.ipynb
 ├── reports/
 │   └── insights_summary.md
 ├── requirements.txt
