@@ -31,7 +31,7 @@ El enfoque sigue un flujo completo de **ETL → Análisis exploratorio → Visua
 * Eliminación de valores nulos y duplicados
 * Conversión de tipos de datos
 * Creación de variables derivadas (ej. `Month`, `Revenue_per_Product`)
-* Exportación de dataset limpio a `/data/processed`
+* Exportación de dataset limpio a `/data`
 
 ### 2️⃣ EDA – Análisis exploratorio
 
