@@ -1,19 +1,17 @@
-# 🧠 Data Portfolio
+🧠 Data Portfolio
 
-Bienvenido a mi portfolio de proyectos de **Análisis y Ciencia de Datos**.  
-Aquí reúno trabajos enfocados en el proceso completo de tratamiento de datos: desde la extracción, limpieza y transformación (ETL) hasta el análisis exploratorio y la visualización de resultados.
+Welcome to my Data Analytics and Data Science project portfolio.
+Here, I showcase work focused on the full data lifecycle: from extraction, cleaning, and transformation (ETL) to exploratory analysis and results visualization.
 
----
+📊 Objective
 
-## 📊 Objetivo
-Demostrar habilidades sólidas en:
-- Procesamiento y limpieza de datos con **Python (pandas, numpy)**  
-- Consultas y modelado en **SQL / NoSQL**
-- Construcción de pipelines ETL
-- Visualización con **Power BI, Matplotlib, Seaborn o Plotly**
-- Análisis estadístico y reporting
+* Demonstrate strong skills in:
+* Data processing and cleaning with Python (pandas, numpy)
+* SQL / NoSQL querying and data modeling
+* Building ETL pipelines
+* Visualization with Power BI, Matplotlib, Seaborn, or Plotly
+* Statistical analysis and reporting
 
----
+🧰 Main Tools
 
-## 🧰 Herramientas principales
-`Python` | `SQL` | `Pandas` | `Power BI` | `Matplotlib` | `Seaborn` | `Jupyter`
+Python | SQL | Pandas | Power BI | Matplotlib | Seaborn | Jupyter
