@@ -1,58 +1,63 @@
-# 🛍️ Retail Sales Analysis
+🛍️ Retail Sales Analysis – Data Analytics Project
+📌 Project Overview
 
-## 📌 Descripción general
+This project performs a complete analysis of retail sales using product, customer, store and transaction data.
+The main goal is to identify business patterns, key products, store performance, and optimization opportunities.
 
-Este proyecto tiene como objetivo analizar datos de ventas minoristas con el fin de identificar patrones de compra, rendimiento de productos y comportamiento de clientes.
-El enfoque sigue un flujo completo de **ETL → Análisis exploratorio → Visualización → Insights**, utilizando herramientas de análisis de datos y visualización.
+The workflow follows standard analytics stages:
+
+ETL → Exploratory Data Analysis (EDA) → Visualization → Insights
+
+---
+## 🎯🎯 Project Objectives
+
+* Clean and transform retail sales data
+* Identify the most relevant products and stores based on revenue and units sold
+* Apply ABC classification and Pareto analysis to understand product catalog impact
+* Analyze temporal trends and customer purchasing behavior
+* Generate clear, actionable visualizations for business decision-making
 
 ---
 
-## 🎯 Objetivos del proyecto
+## ⚙️ Technologies Used
 
-* Realizar la limpieza y transformación de los datos de ventas.
-* Analizar tendencias de consumo, categorías más rentables y desempeño por sucursal.
-* Visualizar los resultados mediante gráficos descriptivos y/o dashboard interactivo.
-* Obtener insights accionables para la toma de decisiones comerciales.
-
----
-
-## ⚙️ Tecnologías y librerías utilizadas
-
-* **Python** (Pandas, NumPy, Matplotlib, Seaborn)
+* **Python**: Pandas, NumPy, Matplotlib, Seaborn
 * **Jupyter Notebook**
-* **Git / GitHub** para control de versiones
+* **Power BI** (optional for final dashboard)
+* **Git / GitHub**
 
 ---
 
-## 🧠 Etapas del proyecto
+## 🧠 Project Workflow
 
-### 1️⃣ ETL – Limpieza y preparación de datos
+### 1️⃣ ETL – Data cleaning & preparation
 
-* Eliminación de valores nulos y duplicados
-* Conversión de tipos de datos
-* Creación de variables derivadas (ej. `Month`, `Revenue_per_Product`)
-* Exportación de dataset limpio a `/data`
+* Handling missing values, duplicates and data types
+* Feature engineering: Revenue, Month, Revenue_per_Product, etc.
 
-### 2️⃣ EDA – Análisis exploratorio
+### 2️⃣ EDA – Exploratory Data Analysis
 
-* Identificación de los productos más vendidos
-* Identificación de tiendas con productos más vendidos
-* Análisis temporal de ventas (mensual / semanal)
+* Product and store ranking
+* Time-based analysis
+* Pareto curve
+* ABC classification
+* Store–product matrix
 
-### 3️⃣ Visualización
+### 3️⃣ Visualization
 
-* Gráficos de barras, líneas y boxplots para tendencias y comparaciones
-* Heatmap de correlación entre variables
+* Descriptive charts
+* Heatmaps
+* Colored ABC curve
+* Pareto chart
 
-### 4️⃣ Conclusiones e insights
+### 4️⃣ Insights
 
-* Identificación de patrones de compra por tipo de cliente
-* Categorías con mayor rentabilidad y estacionalidad
-* Recomendaciones para optimización comercial
+* Business recommendations
+* Key findings based on product mix and store performance
 
 ---
 
-## 📂 Estructura del proyecto
+## 📂 Project Structure
 
 ```
 retail-sales-analysis/
@@ -60,7 +65,8 @@ retail-sales-analysis/
 ├── notebooks/
 │   ├── 01_data_cleaning.ipynb
 │   ├── 02_exploratory_analysis.ipynb
-│   └── 03_summary_reports.ipynb
+│   ├── 03_summary_reports.ipynb
+|   └── 04_temp_analysis.ipynb
 ├── reports/
 │   └── insights_summary.md
 ├── requirements.txt
@@ -69,56 +75,36 @@ retail-sales-analysis/
 
 ---
 
-## 🚀 Cómo ejecutar el proyecto
+## 🚀 How to run the project
 
-1. Clonar el repositorio:
-
-   ```bash
-   git clone https://github.com/<tu_usuario>/data-portfolio.git
-   cd data-portfolio/retail-sales-analysis
-   ```
-
-2. Crear y activar entorno virtual:
-
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # En Linux/Mac
-   venv\Scripts\activate     # En Windows
-   ```
-
-3. Instalar dependencias:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Abrir los notebooks y ejecutar:
-
-   ```bash
-   jupyter notebook
-   ```
+    git clone https://github.com/<your_user>/data-portfolio.git
+    cd data-portfolio/retail-sales-analysis
+    python -m venv venv
+    source venv/bin/activate  # Linux/Mac
+    venv\Scripts\activate     # Windows
+    pip install -r requirements.txt
+    jupyter notebook
 
 ---
 
-## 📊 Resultados esperados
+## 📈 Next Steps
 
-* Dataset limpio y transformado listo para análisis.
-* Visualizaciones descriptivas claras (por categoría, cliente, sucursal, método de pago).
-* Dashboard o reporte con conclusiones de negocio.
+🧠 Implement predictive models:
+* Store-level sales prediction
+* Time-series forecasting
 
----
+📦 Market Basket Analysis (Apriori / FP-Growth)
 
-## 📈 Próximos pasos
+🎯 Product or store clustering (KMeans)
 
-* Incorporar modelos predictivos simples (por ejemplo, predicción de ventas mensuales).
-* Integrar otras fuentes de datos (inventario, clientes, etc.).
-* Desarrollar dashboard interactivo final en Power BI o Streamlit.
+📊 Interactive final dashboard in Power BI or Streamlit
 
 ---
 
-## ✍️ Autor
+## ✍️ Author
 
-**Nombre:** Cristian Arana
-**Rol:** Analista / Científico de Datos
+**Cristian Arana**
+Data Analyst / Data Scientist
+
 **LinkedIn:** [linkedin.com/in/cristian-arana](https://linkedin.com/in/cristian-arana)
 **GitHub:** [github.com/cristian-arana](https://github.com/cristian-arana)
