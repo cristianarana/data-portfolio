@@ -107,4 +107,4 @@ retail-sales-analysis/
 Data Analyst / Data Scientist
 
 **LinkedIn:** [linkedin.com/in/cristian-arana](https://linkedin.com/in/cristian-arana)
-**GitHub:** [github.com/cristian-arana](https://github.com/cristian-arana)
+**GitHub:** [https://github.com/cristianarana/data-portfolio](https://github.com/cristian-arana)
